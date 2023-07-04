@@ -48,8 +48,6 @@ public class EntityTestCases {
 
 	void setBrowser() throws Exception
 	{
-
-                  //
 		String workingDir = System.getProperty("user.dir");
 		extent = new com.relevantcodes.extentreports.ExtentReports(workingDir+"//Reports//EntityMaster.html",true);
 		test = extent.startTest("Verify OpenBrowser");
